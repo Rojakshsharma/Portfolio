@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  font-family: "Poppins", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.hero-list  li:hover{
+  color: #2563eb ;
+  cursor:pointer;
+}
+
+.circle1{
+  background: linear-gradient(180deg , rgba(19, 19, 255, 0.4),rgb(26, 26, 41));
+}
+
+.img1{
+  animation: fly 4s infinite ease-in-out;
+}
+
+@keyframes fly{
+  0%{
+    transform: translateY(-20px);
+  }
+
+  50%{
+    transform:translateY(20px);
+  }
+
+  100%{
+    transform:translateY(-20px);
+  }
+}
+
+.rotate{
+  animation: rotateAni 5s infinite linear;
+}
+
+@keyframes rotateAni {
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.card{
+  box-shadow:1px 0px 20px 4px rgba(19, 19, 255, 0.2);
+  transition: transform 1s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+  transform: scale(1.07);
+}
+
+
+

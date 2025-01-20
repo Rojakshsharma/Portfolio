@@ -84,11 +84,11 @@ function Hero() {
         </div>
 
         {/* introduction */}
-        <div className="flex justify-center">
+        <div className="flex justify-center ">
           <div className="   z-10 top-[6rem] w-[90%] ">
             <div className="flex justify-evenly flex-col-reverse sm:flex-row">
               <div className="p-10 my-auto ">
-                <div className="space-y-2 text-white">
+                <div className="space-y-5 text-white">
                   <p className="text-3xl">
                     Hello{" "}
                     <span className="border-b-2 border-blue-600 w-[50%] lg:w-[80%] inline-block"></span>
@@ -97,7 +97,7 @@ function Hero() {
                   <p className="text-2xl md:text-3xl">Fronted Developer</p>
                 </div>
 
-                <div className="space-x-3 space-y-2">
+                <div className="space-x-3 space-y-4">
                   <button className="py-2 px-3 sm:px-6 bg-blue-600 text-white rounded-xl font-semibold tracking-widest uppercase">
                     <a
                       href="https://drive.google.com/file/d/1ZiitwQcarvAYYaKqbJQ_DDvXOZHKQnJJ/view?usp=sharing"

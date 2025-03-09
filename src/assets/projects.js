@@ -35,18 +35,21 @@ const projects = [
 
     },
     {
-      "name": "BeautyAura",
+      "name": "BlogApp",
       "tech_used": [
         "HTML",
-        "CSS",
+        "Tailwind",
         "Javascript",
-        "Netlify"
+        "Netlify",
+        "NextJS",
+        "REST API"
       ],
-      "description": "Created a responsive static cosmetic e-commerce site with smooth multi-page navigation, optimized for both desktop and mobile, featuring functional links for easy browsing.",
-      "github_link": "https://66096853a3590ac41829e1a7--charming-bavarois-3c66a6.netlify.app/",
-      "link":"https://66096853a3590ac41829e1a7--charming-bavarois-3c66a6.netlify.app/",
+      "description": "Created a responsive dynamic blog site with smooth multi-page navigation where admin can post new blogs , delete existing blogs and subscribers and User can subscribe the page , category feature",
+      "github_link": "https://github.com/Rojakshsharma/blog-app",
+      "link":"https://my-app-cllw.vercel.app/",
       "image":pj3
-    }
+    },
+    
   ]
   
   export default projects;

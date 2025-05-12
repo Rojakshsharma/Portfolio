@@ -1,6 +1,6 @@
 # 💼 Portfolio Website
 
-This is a responsive **frontend portfolio project** built using HTML, CSS, and JavaScript (or React, if applicable). It showcases my work, skills, and personal background in a clean and professional layout.
+This is a responsive **frontend portfolio project** built using HTML, CSS, and React It showcases my work, skills, and personal background in a clean and professional layout.
 
 ## 🚀 Features
 
